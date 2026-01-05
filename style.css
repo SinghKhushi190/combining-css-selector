@@ -1,25 +1,36 @@
+/* Write your code here: */
 body{
-    background-color: #ffe6e6;
-    font-family: Arial, sans-serif;
+    background-color: lavender;
+    font-family: 'Arial Black', sans-serif;
 }
+
 
 h1{
-    color: #c52e2e;
-    font-size: 47px;
+    color: crimson;
     text-align: center;
+    font-size: 45px;
+}
+h2{
+    color: darkblue;
+    font-size: 30px;
+}
+.box > p{
+    color: darkgreen;
 }
 
-h2{
-    color: #b81919;
-    font-size: 35px;
-    text-align: center;
+.box li{
+    color: darkred;
 }
-#red{
-    background-color: #f54242;
+li.done{
+    color: rgb(240, 158, 6);
 }
-#green{
-    background-color: #008000;
+
+ul p.done{
+    font-size: 0.75rem;
+    color: rebeccapurple;
 }
-#blue{
-    background-color: #0000FF;
+
+p{
+    font-size: 20px;
+    color: black;
 }
